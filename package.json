@@ -1,8 +1,20 @@
 {
   "name": "vite-project",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "homepage": "https://github.com/nahidtech/react-weather-app#readme",
+  "bugs": {
+    "url": "https://github.com/nahidtech/react-weather-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahidtech/react-weather-app.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -23,9 +35,5 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
     "vite": "^6.2.0"
-  },
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "eslint.config.js",
-  "author": "",
-  "license": "ISC"
+  }
 }
